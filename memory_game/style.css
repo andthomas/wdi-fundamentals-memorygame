@@ -70,6 +70,7 @@ footer {
 	font-size: 14px;
 	letter-spacing: 0.08em;
 	font-weight: 500;
+	margin-top: 15px;
 }
 
 .copyright {
@@ -98,4 +99,10 @@ footer {
 	font-weight: 700;
 }
 
+.button {
+	margin-top: 10px;
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
 

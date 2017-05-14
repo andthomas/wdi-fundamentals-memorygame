@@ -23,11 +23,11 @@ var cards = [
 
 var cardsInPlay = [];
 
-var checkForMatch = function() {
-	
+var checkForMatch = function() {	
 		if (cardsInPlay.length === 2) {
 			if (cardsInPlay[0] === cardsInPlay[1]) {
 				setTimeout(function() {alert("You found a match!"); }, 200);
+				//scoreCounter();
 			} else {
 				setTimeout(function() {alert("Sorry, try again."); }, 200);
 		}
@@ -59,3 +59,13 @@ createBoard();
 function resetGame() {
 	location.reload();
 }
+
+/*
+var score = 0;
+
+var scoreCounter = function() {
+	score += 1;
+}
+
+console.log(scoreCounter);
+*/
